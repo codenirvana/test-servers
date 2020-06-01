@@ -1,0 +1,7 @@
+*
+!.gitignore
+!ca.cnf
+!ca.srl
+!client.cnf
+!generate-certs.sh
+!server.cnf
