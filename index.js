@@ -1,5 +1,4 @@
-const fs = require('fs'),
-    httpProxy = require('http-proxy'),
+const httpProxy = require('http-proxy'),
     servers = require('./servers'),
 
     proxy = httpProxy.createProxyServer(),

@@ -5,8 +5,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "graphql": "15.0.0",
-    "http-proxy": "1.18.0",
-    "server-destroy": "1.0.1"
+    "graphql": "^15.0.0",
+    "http-proxy": "^1.18.1",
+    "server-destroy": "^1.0.1"
   }
 }
