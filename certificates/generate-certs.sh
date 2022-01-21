@@ -53,3 +53,11 @@ openssl pkcs12 -export \
     -in client-crt.pem \
     -out client-pkcs12-passphrase.pfx \
     -passout 'pass:password'
+
+# Create client PKCS12 certificate with nomac
+openssl pkcs12 -export \
+    -inkey client-key.pem \
+    -in client-crt.pem \
+    -out client-pkcs12-nomac.pfx \
+    -nomac -nomaciter \
+    -passout 'pass:'
