@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@grpc/grpc-js": "^1.6.7",
+    "@grpc/grpc-js": "^1.8.8",
     "@grpc/proto-loader": "^0.6.13",
     "graphql": "^15.0.0",
     "grpc-node-server-reflection": "^1.0.2",
